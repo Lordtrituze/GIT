@@ -1,3 +1,32 @@
+*{
+    background-color: #a24bca;
+    font-family: 'Courier New', Courier, monospace;
+}
 body {
-    background-color: dimgrey;
+    margin: auto;
+    padding: auto;
+}
+
+#demo {
+    color: white;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.text-primary{
+    text-transform: uppercase;
+    color: blue;
+
+}
+
+.text-40{
+    font-size: 40px;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: teal;
 }

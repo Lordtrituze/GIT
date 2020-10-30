@@ -1,11 +1,11 @@
-// document.getElementById("demo").innerHTML = "Hello JavaScript";
+document.getElementById("demo").innerHTML = "Hello JavaScript";
 
-// function change(){
-//     document.getElementById("img1").src="images/img2.png";
-//     document.getElementById("img2").src="images/img1.png";
-//     document.innewrite("Javascript has taken effect!");
-//     alert("CHANGED!")
-// }
+function change(){
+    document.getElementById("img1").src="images/img2.png";
+    document.getElementById("img2").src="images/img1.png";
+    document.innewrite("Javascript has taken effect!");
+    alert("CHANGED!")
+}
 
 const num1_input = document.getElementById('num1');
 const num2_input = document.getElementById('num2');
