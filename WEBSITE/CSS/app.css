@@ -1,12 +1,14 @@
 *{
-    background-color: #a24bca;
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    background-color: #a24bca;
 }
 
+.container{
+    margin: 20px;
+}
 #demo {
     color: white;
     font-variant: small-caps;
@@ -29,4 +31,58 @@ body {
     cursor: pointer;
     font-weight: bold;
     background-color: teal;
+}
+
+nav{
+    background-color: tomato;
+    width: 100%;
+    padding: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: wheat;
+    margin: 10px;
+    font-weight: bold;
+    background-color: blue;
+    color: grey;
+    border: 2px solid white;
+    padding: 7px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: cornflowerblue;
+    color: grey;
+}
+
+
+.about{
+    text-align: center;
+}
+hr{
+    background-color: white;
+}
+table, td, th{
+    border: 1px solid;
+}
+
+.contactform{
+    display: flex;
+    justify-content: center;
+
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 13px;
+}
+label{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+div.calculate input {
+    display: inline-block;
 }

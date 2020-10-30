@@ -1,12 +1,14 @@
-document.getElementById("demo").innerHTML = "Hello JavaScript";
+// CHANGE PICTURE
+// document.getElementById("demo").innerHTML = "Hello JavaScript";
 
 function change(){
     document.getElementById("img1").src="images/img2.png";
     document.getElementById("img2").src="images/img1.png";
     document.innewrite("Javascript has taken effect!");
-    alert("CHANGED!")
+    alert("CHANGED!");
 }
 
+// CALCULATOR
 const num1_input = document.getElementById('num1');
 const num2_input = document.getElementById('num2');
 const result_field = document.getElementById('result');
@@ -82,3 +84,4 @@ function modulusClick(){
     let result = modulus(x, y)
     result_field.value = result
 }
+

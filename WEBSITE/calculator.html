@@ -5,40 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://pages.github.com/favicon.ico">
+    <link rel="stylesheet" href="css/app.css">
     <title>Calculator</title>
 </head>
 
 <body>
-    <nav style="text-align: center;">
+    <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="record.html">Records</a>
         <a href="calculator.html">calculator</a>
     </nav>
+    <div class="container">
+        <h1>My Calculator App</h1>
+        <form action="">
+            <div>
+            <input type="text" id="num1" placeholder="Enter your first number">
+            </div>
 
-    <h1>My Calculator App</h1>
-    <form action="">
-        <div>
-        <input type="text" id="num1" placeholder="Enter your first number">
-        </div>
-
-        <div>
-        <input type="text" id="num2" placeholder="Enter your second number">
-        </div>
-        <div>
-            <label for="result">Result</label>
-            <input type="text" id="result" readonly>
-        </div>
-
-        <input type="button" value= "Add" onclick="addClick()">
-        <input type="button" value= "Subtract" onclick="subtractClick()">
-        <input type="button" value= "Divide" onclick="divideClick()">
-        <input type="button" value= "Multiply" onclick="multiplyClick()">
-        <input type="button" value= "Modulus" onclick="modulusClick()">
-        <br><br>
-        
-    </form>
+            <div>
+            <input type="text" id="num2" placeholder="Enter your second number">
+            </div>
+            <div>
+                <label for="result">Result</label>
+                <input type="text" id="result" readonly>
+            </div>
+            <div class = "calculate">
+                <input type="button" value= "Add" onclick="addClick()">
+                <input type="button" value= "Subtract" onclick="subtractClick()">
+                <input type="button" value= "Divide" onclick="divideClick()">
+                <input type="button" value= "Multiply" onclick="multiplyClick()">
+                <input type="button" value= "Modulus" onclick="modulusClick()">
+            </div>
+            
+    </div>
+        </form>
     <script src="JS/app.js"></script>
 </body>
 
